@@ -1,0 +1,25 @@
+{
+  "name": "torrentclient",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node --unhandled-rejections=strict --exec babel-node app.js"
+  },
+  "presets": [
+    "@babel/preset-env"
+  ],
+  "dependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/node": "^7.15.4",
+    "@babel/preset-env": "^7.15.6",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^10.0.0",
+    "express": "^4.16.4",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.13"
+  }
+}
